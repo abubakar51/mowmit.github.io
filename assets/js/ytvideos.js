@@ -26,16 +26,20 @@ const channel = () => {
   channel_link.href = `${channel_details.link}?sub_confirmation=1`;
 };
 channel();
-ytvideo.forEach((video) => {
-  const html = `
-      <div class="video">
-        <img src="assets/img/thumbs/${video.thumbnail}" alt="" class="thumbnail">
-        <div class="video_overlay">
-          <p class="paragraph">${video.title}</p>
-          <a href="${video.link}" class="btn">Play</a>
+let html2;
+const ytvideos = () => {
+  ytvideo.forEach((video) => {
+    const html = `
+        <div class="video">
+          <img src="assets/img/thumbs/${video.thumbnail}" alt="" class="thumbnail">
+          <div class="video_overlay">
+            <p class="paragraph">${video.title}</p>
+            <a href="${video.link}" class="btn">Play</a>
+          </div>
         </div>
-      </div>
-      `;
-  const ytvideo = document.querySelector(".videos");
-  ytvideo.insertAdjacentHTML("beforeend", html);
-});
+        `;
+    const ytvideo = document.querySelector(".videos");
+    ytvideo.insertAdjacentHTML("beforeend", html);
+  });
+};
+ytvideos();

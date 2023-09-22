@@ -13,7 +13,7 @@ const photos = () => {
   photo_gallery.forEach((photo) => {
     const html = `
             <div class="swiper-slide item">
-              <img src="./assets/img/photo_gallery/${photo}" alt="">
+              <img src="assets/img/photo_gallery/${photo}" alt="Gallery" loading="lazy">
             </div>
             `;
     const photo_gallery = document.querySelector(".photo_gallery_wrapper");
