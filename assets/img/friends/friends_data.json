@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Muhammad Abu Bakar",
+    "pic": "Sagar.jpg",
+    "address": {
+      "village": "Hotapara",
+      "district": "Gazipur Sadar",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://facebook.com/muhammad.abubakar.salafi/",
+      "whatsapp": "01772661151"
+    }
+  },
+  {
+    "name": "Sujon Sheikh",
+    "pic": "sujon.jpg",
+    "address": {
+      "village": "Satir Bazar",
+      "district": "Srepur",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://facebook.com/muhammad.abubakar.salafi/",
+      "whatsapp": "01772661151"
+    }
+  },
+  {
+    "name": "Atiqul Islam",
+    "pic": "atiqul.jpg",
+    "address": {
+      "village": "Satir Bazar",
+      "district": "Srepur",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://facebook.com/muhammad.abubakar.salafi/",
+      "whatsapp": "01772661151"
+    }
+  },
+  {
+    "name": "Shorif Khan",
+    "pic": "shorif.JPG",
+    "address": {
+      "village": "Saitalia",
+      "district": "Srepur",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/sdking.shorifkhan",
+      "whatsapp": "01772661151"
+    }
+  },
+  {
+    "name": "Md Jony Khan",
+    "pic": "jony.jpg",
+    "address": {
+      "village": "Dhunua",
+      "district": "Sreepur ",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=100064866978092/",
+      "whatsapp": "01988126552"
+    }
+  },
+
+  {
+    "name": "Rakibul Islam",
+    "pic": "rakib.jpg",
+    "address": {
+      "village": "Satirbazar ",
+      "district": "sreepur ",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=100038075990969/",
+      "whatsapp": "01818951563"
+    }
+  },
+
+  {
+    "name": "Farabi NafianSunvi ",
+    "pic": "farabi.JPG",
+    "address": {
+      "village": "Satirbazar ",
+      "district": "Sreepur ",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/farabinafian.sunvi/",
+      "whatsapp": "01719955767"
+    }
+  },
+
+  {
+    "name": "Md Tanzid ",
+    "pic": "tanzid.JPG",
+    "address": {
+      "village": "Satirbazar ",
+      "district": "Sreepur ",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/rk.tanzid.3/",
+      "whatsapp": "01631549103"
+    }
+  },
+
+  {
+    "name": "Md Naiyeem Islam",
+    "pic": "nayeam.JPG",
+    "address": {
+      "village": "Satirbazar ",
+      "district": "Sreepur ",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/md.naiyeemkhan.5/",
+      "whatsapp": "+8801831254525"
+    }
+  },
+
+  {
+    "name": "Emran Khan",
+    "pic": "emran.JPG",
+    "address": {
+      "village": "Satirbazar ",
+      "district": "Sreepur ",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/ekemran.khan.758/",
+      "whatsapp": "01779487811"
+    }
+  },
+
+  {
+    "name": "Mehadi Hasan Dipu",
+    "pic": "dipu.JPG",
+    "address": {
+      "village": "Satirbazar ",
+      "district": "Sreepur ",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/mehedi.hasandipo.904/",
+      "whatsapp": "01322676610"
+    }
+  },
+
+  {
+    "name": "Khan Hemal",
+    "pic": "himel.JPG",
+    "address": {
+      "village": "Shaitalia ",
+      "district": "Sreepur ",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/khan.hemal.3726/",
+      "whatsapp": "01627588486"
+    }
+  },
+
+  {
+    "name": "Khan Shakib",
+    "pic": "shakib.JPG",
+    "address": {
+      "village": "Shaitalia ",
+      "district": "sreepur ",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=100034688721306/",
+      "whatsapp": "01842630480"
+    }
+  },
+
+  {
+    "name": "Neeam khan",
+    "pic": "nayeem.JPG",
+    "address": {
+      "village": "Satirbazar ",
+      "district": "sreepur ",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=100041370104615/",
+      "whatsapp": "01605707152"
+    }
+  },
+
+  {
+    "name": "Anonto Sheikh Nahid ",
+    "pic": "nahid.jpg",
+    "address": {
+      "village": "Satirbazar ",
+      "district": "Sreepur ",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=100083331845389/",
+      "whatsapp": "01755853166"
+    }
+  },
+
+  {
+    "name": "Md Kurshed Sheikh ",
+    "pic": "khorshed.jpg",
+    "address": {
+      "village": "Goder chala ",
+      "district": "Sreepur ",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=100037557126081/",
+      "whatsapp": "01814431364"
+    }
+  },
+  {
+    "name": "Md Nihad Mirdha ",
+    "pic": "nihad.jpg",
+    "address": {
+      "village": "Shaitalia ",
+      "district": "Sreepur ",
+      "city": "Gazipur"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=100093172505254/",
+      "whatsapp": "01876423525"
+    }
+  }
+]
