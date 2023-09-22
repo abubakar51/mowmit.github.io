@@ -1,4 +1,4 @@
-const photo_gallery = [
+const photos_gallery = [
   "img_1.jpg",
   "img_2.jpg",
   "img_3.jpg",
@@ -9,14 +9,15 @@ const photo_gallery = [
   "img_8.jpg",
   "img_9.jpg",
 ];
+const photo_gallery = document.querySelector(".photo_gallery_wrapper");
 const photos = () => {
-  photo_gallery.forEach((photo) => {
+  photos_gallery.forEach((photo) => {
     const html = `
             <div class="swiper-slide item">
               <img src="assets/img/photo_gallery/${photo}" alt="Gallery" loading="lazy">
             </div>
             `;
-    const photo_gallery = document.querySelector(".photo_gallery_wrapper");
+
     photo_gallery.insertAdjacentHTML("beforeend", html);
   });
   new Swiper(".photo_gallery", {

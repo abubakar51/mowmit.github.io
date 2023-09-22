@@ -1,16 +1,17 @@
-TopScroll = window.pageYOffset || document.documentElement.scrollTop;
-(LeftScroll = window.pageXOffset || document.documentElement.scrollLeft),
-  (window.onscroll = function () {
-    window.scrollTo(LeftScroll, TopScroll);
-  });
-const loader = document.querySelector("#loader");
-window.onload = function () {
-  loader.classList.add("display-none");
-  document.querySelector(".header").classList.add("animate__fadeInDown");
-  document.querySelector(".left_side").classList.add("animate__fadeInLeft");
-  document.querySelector(".right_side").classList.add("animate__fadeInRight");
-  window.onscroll = function () {};
-};
+// TopScroll = window.pageYOffset || document.documentElement.scrollTop;
+// (LeftScroll = window.pageXOffset || document.documentElement.scrollLeft),
+//   (window.onscroll = function () {
+//     window.scrollTo(LeftScroll, TopScroll);
+//   });
+// const loader = document.querySelector("#loader");
+// const me = document.querySelector(".side_image");
+// Window.onload = function () {
+//   loader.classList.add("display-none");
+//   document.querySelector(".header").classList.add("animate__fadeInDown");
+//   document.querySelector(".left_side").classList.add("animate__fadeInLeft");
+//   document.querySelector(".right_side").classList.add("animate__fadeInRight");
+//   window.onscroll = function () {};
+// };
 const textArray = [
   // input text for typing
   "Photographer",

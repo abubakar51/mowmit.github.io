@@ -356,7 +356,7 @@ body {
 .fixed_img {
   width: 100%;
   height: 25rem;
-  background: url("../img/fixed.JPG") no-repeat;
+  background: url("../img/fixed.webp") no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -629,6 +629,7 @@ body {
 }
 .footer img {
   width: 4rem;
+  height: 4rem;
   transform: translateX(100%);
 }
 .email {
