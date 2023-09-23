@@ -1,22 +1,22 @@
 const channel_details = {
   link: "https://www.youtube.com/channel/UC9hXcblP0L9aNndC1x3dmLQ",
-  logo: "assets/img/channel_logo.jpg",
+  logo: "assets/img/channel_logo.webp",
 };
 const ytvideo = [
   {
     link: "https://youtube.com",
     title: "মানুষের আত্বসম্মান অনেক বড়",
-    thumbnail: "thumb1.JPG",
+    thumbnail: "thumb1.jpg",
   },
   {
     link: "https://youtube.com",
     title: "মানুষের আত্বসম্মান অনেক বড় পার্ট ২",
-    thumbnail: "thumb2.PNG",
+    thumbnail: "thumb2.jpg",
   },
   {
     link: "https://youtube.com",
     title: "মিলাতে পারলেই ১ হাজার টাকা পুরুষ্কার",
-    thumbnail: "thumb3.PNG",
+    thumbnail: "thumb3.jpg",
   },
 ];
 const channel = () => {

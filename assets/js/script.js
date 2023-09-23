@@ -1,17 +1,16 @@
-// TopScroll = window.pageYOffset || document.documentElement.scrollTop;
-// (LeftScroll = window.pageXOffset || document.documentElement.scrollLeft),
-//   (window.onscroll = function () {
-//     window.scrollTo(LeftScroll, TopScroll);
-//   });
-// const loader = document.querySelector("#loader");
-// const me = document.querySelector(".side_image");
-// Window.onload = function () {
-//   loader.classList.add("display-none");
-//   document.querySelector(".header").classList.add("animate__fadeInDown");
-//   document.querySelector(".left_side").classList.add("animate__fadeInLeft");
-//   document.querySelector(".right_side").classList.add("animate__fadeInRight");
-//   window.onscroll = function () {};
-// };
+TopScroll = window.pageYOffset || document.documentElement.scrollTop;
+(LeftScroll = window.pageXOffset || document.documentElement.scrollLeft),
+  (window.onscroll = function () {
+    window.scrollTo(LeftScroll, TopScroll);
+  });
+const loader = document.querySelector("#loader");
+window.onload = function () {
+  loader.classList.add("display-none");
+  document.querySelector(".header").classList.add("animate__fadeInDown");
+  document.querySelector(".left_side").classList.add("animate__fadeInLeft");
+  document.querySelector(".right_side").classList.add("animate__fadeInRight");
+  window.onscroll = function () {};
+};
 const textArray = [
   // input text for typing
   "Photographer",
@@ -65,3 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
 //////  Auto Typing Effect END ///////
+const notice =
+  "বাঁশ বাগানের মাথার উপর চাঁদ উঠছে ঐ, লাইফে শুধু বাঁশটা খাইলাম চাঁদটা গেলো কই। দেখেই delete করে দিবা, প্রমিস করো হ্যাঁ হ্যাঁ ১০০বার প্রমিস";
+const notice_inner = document.querySelector("#notice_inner");
+notice_inner.innerHTML = notice;

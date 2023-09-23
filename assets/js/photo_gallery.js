@@ -8,6 +8,10 @@ const photos_gallery = [
   "img_7.jpg",
   "img_8.jpg",
   "img_9.jpg",
+  "image_1.jpg",
+  "image_2.jpg",
+  "image_3.jpg",
+  "image_4.jpg",
 ];
 const photo_gallery = document.querySelector(".photo_gallery_wrapper");
 const photos = () => {
