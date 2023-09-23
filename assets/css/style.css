@@ -332,7 +332,7 @@ body {
 
 .photo_gallery {
   width: 80%;
-  height: 30rem;
+  height: 35rem;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
@@ -498,8 +498,8 @@ body {
   gap: 2rem;
 }
 .video {
-  width: 22rem;
-  height: 13rem;
+  width: 350px;
+  height: 197px;
   background: #fff;
   position: relative;
   overflow: hidden;
@@ -507,8 +507,8 @@ body {
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
 }
 .channel {
-  width: 12rem;
-  height: 12rem;
+  width: 150px;
+  height: 150px;
   background: #fff;
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
   border-radius: 50%;

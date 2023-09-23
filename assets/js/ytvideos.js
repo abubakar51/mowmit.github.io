@@ -6,17 +6,17 @@ const ytvideo = [
   {
     link: "https://youtube.com",
     title: "মানুষের আত্বসম্মান অনেক বড়",
-    thumbnail: "thumb1.jpg",
+    thumbnail: "thumb1",
   },
   {
     link: "https://youtube.com",
     title: "মানুষের আত্বসম্মান অনেক বড় পার্ট ২",
-    thumbnail: "thumb2.jpg",
+    thumbnail: "thumb2",
   },
   {
     link: "https://youtube.com",
     title: "মিলাতে পারলেই ১ হাজার টাকা পুরুষ্কার",
-    thumbnail: "thumb3.jpg",
+    thumbnail: "thumb3",
   },
 ];
 const channel = () => {
@@ -31,7 +31,7 @@ const ytvideos = () => {
   ytvideo.forEach((video) => {
     const html = `
         <div class="video">
-          <img src="assets/img/thumbs/${video.thumbnail}" alt="Thumbnail" class="thumbnail">
+          <img src="assets/img/thumbs/${video.thumbnail}.webp" alt="Thumbnail" class="thumbnail">
           <div class="video_overlay">
             <p class="paragraph">${video.title}</p>
             <a href="${video.link}" class="btn">Play</a>

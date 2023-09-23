@@ -1,7 +1,7 @@
 const friends_data = [
   {
     name: "Muhammad Abu Bakar",
-    pic: "Sagar.jpg",
+    pic: "Sagar",
     address: {
       village: "Hotapara",
       district: "Gazipur Sadar",
@@ -14,7 +14,7 @@ const friends_data = [
   },
   {
     name: "Sujon Sheikh",
-    pic: "sujon.jpg",
+    pic: "sujon",
     address: {
       village: "Satir Bazar",
       district: "Srepur",
@@ -27,7 +27,7 @@ const friends_data = [
   },
   {
     name: "Atiqul Islam",
-    pic: "atiqul.jpg",
+    pic: "atiqul",
     address: {
       village: "Satir Bazar",
       district: "Srepur",
@@ -40,7 +40,7 @@ const friends_data = [
   },
   {
     name: "Shorif Khan",
-    pic: "shorif.JPG",
+    pic: "shorif",
     address: {
       village: "Saitalia",
       district: "Srepur",
@@ -53,7 +53,7 @@ const friends_data = [
   },
   {
     name: "Md Jony Khan",
-    pic: "jony.jpg",
+    pic: "jony",
     address: {
       village: "Dhunua",
       district: "Sreepur ",
@@ -67,7 +67,7 @@ const friends_data = [
 
   {
     name: "Rakibul Islam",
-    pic: "rakib.jpg",
+    pic: "rakib",
     address: {
       village: "Satirbazar ",
       district: "sreepur ",
@@ -81,7 +81,7 @@ const friends_data = [
 
   {
     name: "Farabi NafianSunvi ",
-    pic: "farabi.JPG",
+    pic: "farabi",
     address: {
       village: "Satirbazar ",
       district: "Sreepur ",
@@ -95,7 +95,7 @@ const friends_data = [
 
   {
     name: "Md Tanzid ",
-    pic: "tanzid.JPG",
+    pic: "tanzid",
     address: {
       village: "Satirbazar ",
       district: "Sreepur ",
@@ -109,7 +109,7 @@ const friends_data = [
 
   {
     name: "Md Naiyeem Islam",
-    pic: "nayeam.JPG",
+    pic: "nayeam",
     address: {
       village: "Satirbazar ",
       district: "Sreepur ",
@@ -123,7 +123,7 @@ const friends_data = [
 
   {
     name: "Emran Khan",
-    pic: "emran.JPG",
+    pic: "emran",
     address: {
       village: "Satirbazar ",
       district: "Sreepur ",
@@ -137,7 +137,7 @@ const friends_data = [
 
   {
     name: "Mehadi Hasan Dipu",
-    pic: "dipu.JPG",
+    pic: "dipu",
     address: {
       village: "Satirbazar ",
       district: "Sreepur ",
@@ -151,7 +151,7 @@ const friends_data = [
 
   {
     name: "Khan Hemal",
-    pic: "himel.JPG",
+    pic: "himel",
     address: {
       village: "Shaitalia ",
       district: "Sreepur ",
@@ -165,7 +165,7 @@ const friends_data = [
 
   {
     name: "Khan Shakib",
-    pic: "shakib.JPG",
+    pic: "shakib",
     address: {
       village: "Shaitalia ",
       district: "sreepur ",
@@ -179,7 +179,7 @@ const friends_data = [
 
   {
     name: "Neeam khan",
-    pic: "nayeem.JPG",
+    pic: "nayeem",
     address: {
       village: "Satirbazar ",
       district: "sreepur ",
@@ -193,7 +193,7 @@ const friends_data = [
 
   {
     name: "Anonto Sheikh Nahid ",
-    pic: "nahid.jpg",
+    pic: "nahid",
     address: {
       village: "Satirbazar ",
       district: "Sreepur ",
@@ -207,7 +207,7 @@ const friends_data = [
 
   {
     name: "Md Kurshed Sheikh ",
-    pic: "khorshed.jpg",
+    pic: "khorshed",
     address: {
       village: "Goder chala ",
       district: "Sreepur ",
@@ -220,7 +220,7 @@ const friends_data = [
   },
   {
     name: "Md Nihad Mirdha ",
-    pic: "nihad.jpg",
+    pic: "nihad",
     address: {
       village: "Shaitalia ",
       district: "Sreepur ",
@@ -238,7 +238,7 @@ const friends = () => {
     const html = `
                 <div class="friend swiper-slide">
                 <div class="img">
-                <img src="assets/img/friends/${friend.pic}" alt="Friend">
+                <img src="assets/img/friends/${friend.pic}.webp" alt="Friend" loading="lazy">
                 </div>
                   <div class="f_details">
                   <h2 class="f_name">${friend.name}</h2>
@@ -246,8 +246,8 @@ const friends = () => {
                     ${friend.address.village}, ${friend.address.district} <br> ${friend.address.city}
                   </p>
                   <div class="social_links f_social">
-                  <a href="${friend.social.facebook}" target="_blank"><i class="fa-brands fa-facebook" style="--hover_bg: #0E93F3"></i></a>
-                  <a href="https://wa.me/${friend.social.whatsapp}" target="_blank"><i class="fa-brands fa-whatsapp" style="--hover_bg: #4ECA5C"></i></a>
+                  <a href="${friend.social.facebook}" target="_blank" area-label="Social"><i class="fa-brands fa-facebook" style="--hover_bg: #0E93F3"></i></a>
+                  <a href="https://wa.me/${friend.social.whatsapp}" target="_blank" area-label="Social"><i class="fa-brands fa-whatsapp" style="--hover_bg: #4ECA5C"></i></a>
                   </div>
                   </div>
                 </div>

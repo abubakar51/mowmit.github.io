@@ -1,24 +1,24 @@
 const photos_gallery = [
-  "img_1.jpg",
-  "img_2.jpg",
-  "img_3.jpg",
-  "img_4.jpg",
-  "img_5.jpg",
-  "img_6.jpg",
-  "img_7.jpg",
-  "img_8.jpg",
-  "img_9.jpg",
-  "image_1.jpg",
-  "image_2.jpg",
-  "image_3.jpg",
-  "image_4.jpg",
+  "img_1",
+  "img_2",
+  "img_3",
+  "img_4",
+  "img_5",
+  "img_6",
+  "img_7",
+  "img_8",
+  "img_9",
+  "image_1",
+  "image_2",
+  "image_3",
+  "image_4",
 ];
 const photo_gallery = document.querySelector(".photo_gallery_wrapper");
 const photos = () => {
   photos_gallery.forEach((photo) => {
     const html = `
             <div class="swiper-slide item">
-              <img src="assets/img/photo_gallery/${photo}" alt="Gallery">
+              <img src="assets/img/photo_gallery/${photo}.webp" alt="Gallery" loading="lazy">
             </div>
             `;
 
