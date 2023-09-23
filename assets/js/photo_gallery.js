@@ -18,7 +18,7 @@ const photos = () => {
   photos_gallery.forEach((photo) => {
     const html = `
             <div class="swiper-slide item">
-              <img src="assets/img/photo_gallery/${photo}.webp" alt="Gallery" loading="lazy">
+              <img src="assets/img/photo_gallery/${photo}.webp" alt="Gallery">
             </div>
             `;
 

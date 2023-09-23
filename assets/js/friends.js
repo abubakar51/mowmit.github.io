@@ -238,7 +238,7 @@ const friends = () => {
     const html = `
                 <div class="friend swiper-slide">
                 <div class="img">
-                <img src="assets/img/friends/${friend.pic}.webp" alt="Friend" loading="lazy">
+                <img src="assets/img/friends/${friend.pic}.webp" alt="Friend">
                 </div>
                   <div class="f_details">
                   <h2 class="f_name">${friend.name}</h2>
